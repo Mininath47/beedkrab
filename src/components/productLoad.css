@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.col_box{
+    border: 1px solid;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+  
+}
+.main_box{
+    width: 200px;
+    border: 1px solid;
+   text-align: center;
+   margin: 1px;
+   box-shadow: 2px 3px 5px black;
+}
+.main_box img{
+    width: 200px;
+    height: 150px;
+}
+.main_box .tex_box_group .title{
+    background-color: red;
+    font-weight: bold;
+}
+.main_box .tex_box_group{
+    background-color: rgba(0, 0, 0, 0.393);
+    color: white;
+}
+.main_box .text_content{
+    height: 94px;
+    overflow: hidden;
+}
+.main_box .tex_box_group .rating{
+    display: flex;
+justify-content: space-around;
+}
+.main_box .tex_box_group .rating p{
+height: 10px;
+}
+
+/*------------------- button Group -------------------*/
+
+.main_box .button_group button{
+    padding: 3px;
+    
+}
+.main_box .button_group{
+display: flex;
+justify-content: space-around;
+}
+
+/*------------------------ Product box -------------------------*/
+#cart_icons{
+    display:flex;
+    justify-content: space-between;
+    position: relative;
+    top: 70px;
+      }
+#select_box{
+    width: 12%;
+}
+
+#product_body{
+    border: 1px solid;
+    width: 65%;
+}
+
+#card_box{
+    width: 20%;
+}
+
+/*-------------------------- product box Screen midia ------------------------*/
+@media only screen and (max-width: 1285px) {
+    #select_box{
+        width: 12%;
+    }
+    
+#product_body{
+    border: 1px solid;
+    width: 60%;
+}
+
+#card_box{
+    width: 25%;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+    #select_box{
+        width: 100%;
+    }
+    
+#product_body{
+    border: 1px solid;
+    width: 100%;
+}
+
+#card_box{
+    width: 100%;
+}
+
+}
+@media only screen and (max-width: 400px) {
+    #select_box{
+        width: 100%;
+    }
+    
+#product_body{
+    border: 1px solid;
+    width: 100%;
+}
+
+#card_box{
+    width: 100%;
+    margin-top: 50px;
+}
+.main_box{
+    width: 100%;
+    
+}
+.main_box img{
+    width: 95%;
+}
+#cart_icons{
+    display: none;
+}
+}
